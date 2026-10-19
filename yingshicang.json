@@ -165,6 +165,72 @@
       "changeable": 0
     },
     {
+      "key": "Anime_MoDu",
+      "name": "动画·魔都",
+      "type": 1,
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "动漫电影"
+      ]
+    },
+    {
+      "key": "Anime_HongNiu",
+      "name": "动画·红牛",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动漫",
+        "中国动漫",
+        "日本动漫",
+        "欧美动漫",
+        "动漫电影"
+      ]
+    },
+    {
+      "key": "Anime_IKun",
+      "name": "动画·ikun",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动漫",
+        "动画片",
+        "国产动漫",
+        "日本动漫",
+        "欧美动漫"
+      ]
+    },
+    {
+      "key": "Anime_RuYi",
+      "name": "动画·如意",
+      "type": 1,
+      "api": "https://cj.rycjapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动漫片",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "动画电影"
+      ]
+    },
+    {
       "key": "DuanJuAiHaoKan",
       "name": "短剧·好看",
       "type": 3,
