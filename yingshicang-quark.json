@@ -374,7 +374,7 @@
       "name": "豆瓣推荐(测试)",
       "type": 3,
       "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-      "ext": "https://cdn.jsdelivr.net/gh/kayw-geek/yingshicang@main/douban_home.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/kayw-geek/yingshicang/main/douban_home.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
