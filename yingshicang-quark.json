@@ -2,15 +2,11 @@
   "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
   "sites": [
     {
-      "key": "my_douban",
-      "name": "豆瓣推荐",
+      "key": "豆瓣",
+      "name": "豆瓣 • 首页",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-      "ext": "https://cdn.jsdelivr.net/gh/kayw-geek/yingshicang@main/douban_home.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "changeable": 0
+      "api": "csp_Douban",
+      "searchable": 0
     },
     {
       "key": "配置中心",
@@ -372,6 +368,17 @@
       "filterable": 0,
       "changeable": 0,
       "hide": 1
+    },
+    {
+      "key": "my_douban",
+      "name": "豆瓣推荐(测试)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://cdn.jsdelivr.net/gh/kayw-geek/yingshicang@main/douban_home.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 0
     }
   ],
   "doh": [

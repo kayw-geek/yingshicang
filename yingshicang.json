@@ -2,15 +2,15 @@
   "spider": "http://oss4liview.moji.com/thd_file/2026/09/20/73c02ea3ecd704dc1d50278db9e6e441.jpg;md5;7be82cf9f66e0070ed430fd7b2d2ba64",
   "sites": [
     {
-      "key": "my_douban",
-      "name": "豆瓣推荐",
+      "key": "Douban",
+      "name": "热门",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
-      "ext": "https://cdn.jsdelivr.net/gh/kayw-geek/yingshicang@main/douban_home.js",
+      "api": "csp_NewDouBanGuard",
+      "indexs": 1,
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 1,
-      "changeable": 0
+      "filterable": 0,
+      "ext": "https://cdn.jsdelivr.net/gh/kayw-geek/yingshicang@main/douban.json"
     },
     {
       "key": "Wexconfig",
@@ -355,6 +355,17 @@
       "type": 3,
       "api": "csp_PushGuard",
       "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "my_douban",
+      "name": "豆瓣推荐(测试)",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js",
+      "ext": "https://cdn.jsdelivr.net/gh/kayw-geek/yingshicang@main/douban_home.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
       "changeable": 0
     }
   ],
